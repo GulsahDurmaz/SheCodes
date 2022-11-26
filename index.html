@@ -11,15 +11,16 @@
       }
       h1 {
         color: #885df1;
-        font-size: 48px;
+        font-size: 45px;
         text-decoration: underline;
         font-weight: bolder;
         text-align: center;
       }
       h2 {
         color: #272044;
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
+        font-weight: lighter;
       }
       button {
         display: block;
@@ -27,7 +28,31 @@
         margin: 0 auto 30px auto;
         color: #885df1;
         background-color: transparent;
-        padding: 20px;
+        padding: 10px 20px 10px 20px;
+        border: 1px solid #885df1;
+        border-radius: 30px 30px 30px 30px;
+        box-shadow: 1px 1px 10px #8d8c92;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #885df1;
+        color: #f5f0fe;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+      }
+      li {
+        display: inline;
+        margin: 15px;
       }
       .coders {
         color: blue;
@@ -45,6 +70,14 @@
       img {
         display: block;
         margin: auto;
+      }
+      .contact {
+        text-align: center;
+        margin: 30px;
+        font-size: 12px;
+      }
+      .name {
+        color: #885df1;
       }
     </style>
   </head>
@@ -90,5 +123,9 @@
       alt="SheCodes"
       width="500"
     />
+    <div class="contact">
+      <span class="name">Email: </span>hello@shecodes.io
+      <span class="name">Instagram: </span> @shecodes.io
+    </div>
   </body>
 </html>
